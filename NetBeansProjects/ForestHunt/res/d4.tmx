@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="100" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="tile_1" tilewidth="64" tileheight="64" tilecount="16">
+  <image source="tile_1.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="17" name="tile_2" tilewidth="64" tileheight="64" tilecount="16">
+  <image source="tile_2.png" width="256" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="33" name="sprite_sheet (3)" tilewidth="64" tileheight="64" tilecount="4">
+  <image source="tileSet/sprite_sheet (3).png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="37" name="sprite_sheet (5)" tilewidth="64" tileheight="64" tilecount="1">
+  <image source="tileSet/sprite_sheet (5).png" width="80" height="64"/>
+ </tileset>
+ <tileset firstgid="38" name="sprite_sheet (2)" tilewidth="64" tileheight="64" tilecount="1">
+  <image source="tileSet/sprite_sheet (2).png" width="80" height="64"/>
+ </tileset>
+ <tileset firstgid="39" name="sprite_sheet (4)" tilewidth="64" tileheight="64" tilecount="1">
+  <image source="tileSet/sprite_sheet (4).png" width="80" height="64"/>
+ </tileset>
+ <tileset firstgid="40" name="sprite_sheet (1)" tilewidth="128" tileheight="128" tilecount="1">
+  <image source="tileSet/sprite_sheet (1).png" width="160" height="128"/>
+ </tileset>
+ <tileset firstgid="41" name="sprite_sheet (1)" tilewidth="64" tileheight="64" tilecount="4">
+  <image source="tileSet/sprite_sheet (1).png" width="160" height="128"/>
+ </tileset>
+ <layer name="bottom" width="50" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2aWw6CMBQFfSGibsT9b9CalKQhvIQCA5lJbvBIbD3p/MHptC3nMJcw1zC3ibnms+MpDtIjpe07MvZgYQ8W9mBhDxb2YGEPFvZgYQ8W9mBhDxb2YGEPFvZgYQ8W9mBhDxZDPfY4R+yxZ6oMaww9B16T9LntI17vYcqYi5hzkK5X/vH/xuxfn8srzDt+fia5mpiXom2/HzneJ+jKuenbLz3n5rnnyLnp2m+qN3PyEH2/b1LfX9Krue+9jGEtr9bKW3i1RCZ4lCNTvNArvSJmihd6pVfETPFCr/SKmCle6JVeETPFC73SK2KmeKFXekXMFC/0Sq+ImeKFXukVMVO80Cu9ImaKF3qlV8RM8UKv9IqYKV7olV4RM8ULvTqWV19N08E2IE4AAA==
+  </data>
+ </layer>
+ <layer name="walls" width="50" height="100">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2Ua4rDMAyE0x/tbo/R+19yG5aAEbal0SNN0hkwEX7JE3/Wa1mW18nb0nxljCqy1rpHb/xbfCB3allrHdPye3xosq6dnSXKw54+PHug6y1nsXIg5yPn0HJmcGX5Z+jb8uYZ5a3wYc2txdpdtGs8Pqx3PpLnDlAf3npYzRLio1Le/2KZJ/esVOYd9OZkMbMnSxYfmbLW6DZGa8pRfCBjvTlovarircqHFnvzZ9Wl0dn28mGV503Nxi15IvxY9p/llXHUBzK3olZb3nmEZe99tLL8s56PSJ7e2JV8ZNVnbY6X4QqOpJD3ir7zaN7s/WY+qjnw1iuEK9nnlXcPlA/tfUT1aR+9vj0Y03xkciX7s9615Q60/m/xod3tbKyCH+TM6FuzyuLDu89VfVS30Vmi+2T+b0TZNeJKPs7eKIqa6/Fu93f7/fRBglp9PJd/H2v808Sjfhk/B2tRRf7lmvM2OOOoX8a3wNo2Rs68rW37Nq7k3qN+Gd8Da2WM6tF8q7jy+PDEm4+jcBWJj8ZVxMfZudp8kCtyRa7IFbkiV+SKXJErckWuyBW5IlfkilyRK3JFrsgVuSJX5IpckStyRa7IFbkiV+SKXJErckWuyBW5+l6u/gDFa9h5IE4AAA==
+  </data>
+ </layer>
+</map>
